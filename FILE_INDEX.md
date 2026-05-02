@@ -1,46 +1,62 @@
-# FILE_INDEX.md — concentration-research-v1
+# FILE_INDEX — concentration-research-v1
 
-> **新セッション開始時に必ずこのファイルを読む。**
-> ファイル追加・削除・移動時は必ずこのファイルを更新すること。
-> 最終更新: 2026-04-30
+> ⚠️ このファイルは自動生成です。手動編集は次回更新で上書きされます。
 
-## 概要
-集中力・習慣向上に関する研究調査。エビデンスベースのスコアリングと研究知見をまとめたもの。
-
-**スタック:** Markdown
-
----
-
-## 📋 最初に読むべきファイル
-
-| 優先度 | ファイル | 内容 |
-|---|---|---|
-| ★★★ | `concentration-research-findings.md` | 研究知見メインドキュメント |
-| ★★★ | `concentration-habits-scored.md` | 集中力習慣スコアリング |
+| 項目 | 値 |
+|---|---|
+| リポジトリ | KazuyaMurayama/concentration-research-v1 |
+| ブランチ | main |
+| 総ファイル数 | 8 |
+| 最終更新 | 2026-05-02 |
+| 管理者 | 男座員也（Kazuya Oza） |
 
 ---
 
-## 🗂️ ディレクトリ構造
+## カテゴリ別サマリー
+
+| カテゴリ | ファイル数 |
+|---|---|
+| Documentation | 7 |
+| Config | 1 |
+
+---
+
+## ディレクトリ構成
 
 ```
-concentration-research-v1/
-├── concentration-research-findings.md  ← 研究知見
-└── concentration-habits-scored.md      ← 習慣スコアリング
+.
+├── .gitignore
+├── CLAUDE.md
+├── concentration-habits-scored.md
+├── concentration-research-findings.md
+├── FILE_INDEX.md
+├── README.md
+├── tasks.md
+└── Timeout_Prevention.md
 ```
 
 ---
 
-## 📑 全ファイル一覧
+## ファイル詳細
 
-| パス | 種別 | 説明 |
+### Documentation (7件)
+
+| ファイル | サイズ | 説明 |
 |---|---|---|
-| `concentration-research-findings.md` | レポート | 集中力・習慣向上の研究知見 |
-| `concentration-habits-scored.md` | レポート | 集中力習慣のエビデンスベーススコアリング |
+| `CLAUDE.md` | 1.3 KB | Claude Code プロジェクト設定・命名ルール |
+| `concentration-habits-scored.md` | 44.9 KB | Markdown ドキュメント |
+| `concentration-research-findings.md` | 36.8 KB | Markdown ドキュメント |
+| `FILE_INDEX.md` | 1.4 KB | （このファイル）全ファイルインデックス |
+| `README.md` | 2.1 KB | リポジトリ概要・セットアップ手順 |
+| `tasks.md` | 1.2 KB | タスク管理・セッション履歴 |
+| `Timeout_Prevention.md` | 4.9 KB | タイムアウト対策ガイド |
+
+### Config (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `.gitignore` | 377 B | Git 除外設定 |
 
 ---
 
-## 🔖 ファイル更新ルール
-
-1. 新ファイル追加時: 該当セクションに1行追加
-2. ファイル削除・移動時: 該当行を削除または更新
-3. 更新後: `git add FILE_INDEX.md && git commit -m "docs: FILE_INDEX.md更新"`
+_自動生成: 2026-05-02 | 管理者: 男座員也（Kazuya Oza）_
